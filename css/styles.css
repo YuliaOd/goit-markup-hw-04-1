@@ -36,7 +36,7 @@ body {
     line-height: 1.71;
     font-family: var(--font-family-primary);
     font-weight: 400;
-    background-color: #E5E5E5;
+    
 }
 
 footer {
@@ -50,12 +50,10 @@ footer {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 1230px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     align-items: center;
-    /* border: 1px solid #ECECEC; */
-    */
 }
 
 .line {
@@ -70,7 +68,6 @@ footer {
 
 .pictures {
     display: flex;
-    /* padding-bottom: 94px; */
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -100,9 +97,6 @@ footer {
 }
 
 .list-nav-adress: {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -168,10 +162,6 @@ footer {
     padding-bottom: 94px;
     padding-top: 94px;
     background-color: #F5F4FA;
-}
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .section-text {
@@ -416,12 +406,11 @@ ul {
 .container {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .container-element {
     width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
 
 }
 
@@ -440,7 +429,7 @@ ul {
 .cards-portfolio {
     padding-bottom: 20px;
     border: 1px solid #EEEEEE;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
 
@@ -514,8 +503,13 @@ ul {
 
 .list-nav-adress:hover .contact-icon {
     fill: var(--accent-color);
-}
 
+}
+.list-nav-adress: {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .social-studio {
     display: flex;
     justify-content: center;
@@ -561,21 +555,25 @@ ul {
 
 .icon {
 
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 270px;
     height: 120px;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    background-position: center;
     border: none;
     border-radius: 4px;
     background: #F5F4FA;
-    align-items: center;
-    justify-content: center;
-
+    /* align-items: center; */
+   
 }
+.icon-text {
+    display: block;
+    padding-left: 100px;    
+    padding-top: 25px;   
+   }
 
 
 .compani {
@@ -628,11 +626,9 @@ ul {
 
 .nets-footer {
     display: flex;
-    /* align-items: center; */
     height: 44px;
     width: 44px;
     padding: 12px;
-    /* background-position: center; */
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.1);
 
