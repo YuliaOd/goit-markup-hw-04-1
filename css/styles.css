@@ -138,12 +138,6 @@ footer {
     padding-bottom: 30px;
 }
 
-.section-hero {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-
-}
 
 .hero {
     padding-top: 200px;
@@ -250,7 +244,10 @@ ul {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
 }
 
 .button-portfolio {
@@ -421,7 +418,7 @@ ul {
 .container-element:hover,
 .container-element:focus {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
 }
 
@@ -524,11 +521,9 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
-    
+    fill: #AFB1B8;    
     height: 44px;
     width: 44px;
-    padding: 12px;
     background-position: center;
     border-radius: 50px;
 }
@@ -558,9 +553,13 @@ ul {
     border: none;
     border-radius: 4px;
     background: #F5F4FA;
-    
-   
+     
 }
+.icon-text {
+    width: 70px;
+    height: 70px;
+}
+
 
 
 .compani {
@@ -592,6 +591,7 @@ ul {
 
 .clients {
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .link-clients:hover,
@@ -610,7 +610,6 @@ ul {
     fill: #FFFFFF;
     height: 44px;
     width: 44px;
-    padding: 12px;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.1);
 }
